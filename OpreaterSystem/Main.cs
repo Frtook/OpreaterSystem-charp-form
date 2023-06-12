@@ -30,5 +30,12 @@ namespace OpreaterSystem
             CatText c = new CatText();
             c.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            SearchFile sf = new SearchFile();
+            sf.Show();
+        }
     }
 }

@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchFile.Designer.cs">
+      <DependentUpon>SearchFile.cs</DependentUpon>
+    </Compile>
     <Compile Include="SortFile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SearchFile.resx">
+      <DependentUpon>SearchFile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SortFile.resx">
       <DependentUpon>SortFile.cs</DependentUpon>
     </EmbeddedResource>

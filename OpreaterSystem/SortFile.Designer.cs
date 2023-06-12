@@ -47,17 +47,19 @@
             // 
             // btnSlecFolder
             // 
+            this.btnSlecFolder.BackColor = System.Drawing.Color.White;
             this.btnSlecFolder.Location = new System.Drawing.Point(588, 63);
             this.btnSlecFolder.Name = "btnSlecFolder";
             this.btnSlecFolder.Size = new System.Drawing.Size(37, 30);
             this.btnSlecFolder.TabIndex = 2;
             this.btnSlecFolder.Text = "...";
-            this.btnSlecFolder.UseVisualStyleBackColor = true;
+            this.btnSlecFolder.UseVisualStyleBackColor = false;
             this.btnSlecFolder.Click += new System.EventHandler(this.btnSelectFolder);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(177, 23);
@@ -66,41 +68,45 @@
             // 
             // btnSort
             // 
+            this.btnSort.BackColor = System.Drawing.Color.White;
             this.btnSort.Enabled = false;
-            this.btnSort.Location = new System.Drawing.Point(195, 207);
+            this.btnSort.Location = new System.Drawing.Point(195, 167);
             this.btnSort.Name = "btnSort";
-            this.btnSort.Size = new System.Drawing.Size(95, 28);
+            this.btnSort.Size = new System.Drawing.Size(76, 41);
             this.btnSort.TabIndex = 4;
             this.btnSort.Text = "Sort";
-            this.btnSort.UseVisualStyleBackColor = true;
+            this.btnSort.UseVisualStyleBackColor = false;
             this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.White;
             this.btnClear.Enabled = false;
-            this.btnClear.Location = new System.Drawing.Point(331, 207);
+            this.btnClear.Location = new System.Drawing.Point(304, 167);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(95, 28);
+            this.btnClear.Size = new System.Drawing.Size(76, 39);
             this.btnClear.TabIndex = 5;
             this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnHome
             // 
-            this.btnHome.Location = new System.Drawing.Point(537, 207);
+            this.btnHome.BackColor = System.Drawing.Color.White;
+            this.btnHome.Location = new System.Drawing.Point(526, 169);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(73, 28);
+            this.btnHome.Size = new System.Drawing.Size(76, 39);
             this.btnHome.TabIndex = 6;
             this.btnHome.Text = "Home";
-            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // SortFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(637, 280);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(637, 241);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSort);
@@ -108,8 +114,11 @@
             this.Controls.Add(this.btnSlecFolder);
             this.Controls.Add(this.tbPath);
             this.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "SortFile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SortFile";
             this.ResumeLayout(false);
             this.PerformLayout();

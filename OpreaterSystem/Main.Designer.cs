@@ -30,38 +30,57 @@
         {
             this.btnSortFile = new System.Windows.Forms.Button();
             this.btnText = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSortFile
             // 
-            this.btnSortFile.Location = new System.Drawing.Point(134, 76);
+            this.btnSortFile.BackColor = System.Drawing.Color.White;
+            this.btnSortFile.Location = new System.Drawing.Point(26, 77);
             this.btnSortFile.Name = "btnSortFile";
-            this.btnSortFile.Size = new System.Drawing.Size(138, 39);
+            this.btnSortFile.Size = new System.Drawing.Size(221, 39);
             this.btnSortFile.TabIndex = 0;
             this.btnSortFile.Text = "Sort File";
-            this.btnSortFile.UseVisualStyleBackColor = true;
+            this.btnSortFile.UseVisualStyleBackColor = false;
             this.btnSortFile.Click += new System.EventHandler(this.butSortFile);
             // 
             // btnText
             // 
-            this.btnText.Location = new System.Drawing.Point(134, 137);
+            this.btnText.BackColor = System.Drawing.Color.White;
+            this.btnText.Location = new System.Drawing.Point(26, 139);
             this.btnText.Name = "btnText";
-            this.btnText.Size = new System.Drawing.Size(138, 39);
+            this.btnText.Size = new System.Drawing.Size(221, 39);
             this.btnText.TabIndex = 1;
             this.btnText.Text = "Select All Text";
-            this.btnText.UseVisualStyleBackColor = true;
+            this.btnText.UseVisualStyleBackColor = false;
             this.btnText.Click += new System.EventHandler(this.btnText_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(26, 209);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(221, 39);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Search  in file";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 295);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(279, 316);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnText);
             this.Controls.Add(this.btnSortFile);
             this.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.ResumeLayout(false);
 
@@ -71,6 +90,7 @@
 
         private System.Windows.Forms.Button btnSortFile;
         private System.Windows.Forms.Button btnText;
+        private System.Windows.Forms.Button button1;
     }
 }
 
