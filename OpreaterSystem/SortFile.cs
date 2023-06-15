@@ -93,6 +93,7 @@ namespace OpreaterSystem
                 File.Move(file, targetPath);
                 counter++;
             }
+            MessageBox.Show($"Done you sort {counter -1} video");
 
         }
 

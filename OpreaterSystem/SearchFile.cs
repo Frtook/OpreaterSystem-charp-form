@@ -32,16 +32,25 @@ namespace OpreaterSystem
         {
             string search = tbSearch.Text;
             StreamReader sr = new StreamReader(tbPath.Text);
-            int lineNumber = 1;
+            int lineCount = 0;
+            int SearchCount = 0;
 
-            while ( sr.ReadLine() != null)
+            string line;
+            while ((line = sr.ReadLine()) != null)
             {
-                if (sr.ReadLine().Contains(search))
+                lineCount++;
+                if (line.Contains(search))
                 {
-                    MessageBox.Show($"Line {lineNumber} : {sr.ReadLine()}");
+                    SearchCount++;
+                    MessageBox.Show($"Line {lineCount} : {line}");
                 }
-                lineNumber++;
             }
+            if(SearchCount == 0)
+            {
+                MessageBox.Show("Not found !");
+            }
+            
+            sr.Close();
            
 
         }
