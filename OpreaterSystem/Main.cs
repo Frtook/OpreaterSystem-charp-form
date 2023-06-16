@@ -37,5 +37,12 @@ namespace OpreaterSystem
             SearchFile sf = new SearchFile();
             sf.Show();
         }
+
+        private void btnCount_Click(object sender, EventArgs e)
+        {
+            Hide();
+            CountText count = new CountText();
+            count.Show();
+        }
     }
 }

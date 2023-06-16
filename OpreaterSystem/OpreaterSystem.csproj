@@ -52,6 +52,12 @@
     <Compile Include="CatText.Designer.cs">
       <DependentUpon>CatText.cs</DependentUpon>
     </Compile>
+    <Compile Include="CountText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountText.Designer.cs">
+      <DependentUpon>CountText.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="CatText.resx">
       <DependentUpon>CatText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountText.resx">
+      <DependentUpon>CountText.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
