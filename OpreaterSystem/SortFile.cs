@@ -71,10 +71,10 @@ namespace OpreaterSystem
             string sourceFolder = fbd.SelectedPath;
             string targetFolder = fbd.SelectedPath;
 
-            // Get all files in the source folder
+
             List<string> files = Directory.GetFiles(sourceFolder).ToList();
 
-            // Sort the files based on the numeric part of their names
+
             files.Sort((a, b) => {
                 int aNum = ExtractNumber(a);
                 int bNum = ExtractNumber(b);
@@ -82,7 +82,7 @@ namespace OpreaterSystem
 
             });
 
-            // Rename the files and move them to the target folder
+
             int counter = 1;
             foreach (string file in files)
             {

@@ -36,10 +36,11 @@
             // 
             // btnSortFile
             // 
-            this.btnSortFile.BackColor = System.Drawing.Color.White;
-            this.btnSortFile.Location = new System.Drawing.Point(25, 57);
+            this.btnSortFile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnSortFile.ForeColor = System.Drawing.Color.White;
+            this.btnSortFile.Location = new System.Drawing.Point(4, 74);
             this.btnSortFile.Name = "btnSortFile";
-            this.btnSortFile.Size = new System.Drawing.Size(221, 39);
+            this.btnSortFile.Size = new System.Drawing.Size(265, 39);
             this.btnSortFile.TabIndex = 0;
             this.btnSortFile.Text = "Sort File";
             this.btnSortFile.UseVisualStyleBackColor = false;
@@ -47,10 +48,11 @@
             // 
             // btnText
             // 
-            this.btnText.BackColor = System.Drawing.Color.White;
-            this.btnText.Location = new System.Drawing.Point(25, 119);
+            this.btnText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnText.ForeColor = System.Drawing.Color.White;
+            this.btnText.Location = new System.Drawing.Point(4, 164);
             this.btnText.Name = "btnText";
-            this.btnText.Size = new System.Drawing.Size(221, 39);
+            this.btnText.Size = new System.Drawing.Size(265, 39);
             this.btnText.TabIndex = 1;
             this.btnText.Text = "Select All Text";
             this.btnText.UseVisualStyleBackColor = false;
@@ -58,21 +60,23 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(25, 189);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(4, 119);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(221, 39);
+            this.button1.Size = new System.Drawing.Size(265, 39);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Search  in file";
+            this.button1.Text = "Search in file";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnCount
             // 
-            this.btnCount.BackColor = System.Drawing.Color.White;
-            this.btnCount.Location = new System.Drawing.Point(25, 249);
+            this.btnCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnCount.ForeColor = System.Drawing.Color.White;
+            this.btnCount.Location = new System.Drawing.Point(4, 209);
             this.btnCount.Name = "btnCount";
-            this.btnCount.Size = new System.Drawing.Size(221, 39);
+            this.btnCount.Size = new System.Drawing.Size(265, 39);
             this.btnCount.TabIndex = 3;
             this.btnCount.Text = "Count Text";
             this.btnCount.UseVisualStyleBackColor = false;
@@ -82,8 +86,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(284, 336);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(276, 275);
             this.Controls.Add(this.btnCount);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnText);

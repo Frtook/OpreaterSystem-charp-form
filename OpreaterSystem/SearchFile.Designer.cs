@@ -39,7 +39,8 @@
             // 
             // btnFile
             // 
-            this.btnFile.BackColor = System.Drawing.Color.White;
+            this.btnFile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnFile.ForeColor = System.Drawing.Color.White;
             this.btnFile.Location = new System.Drawing.Point(496, 38);
             this.btnFile.Name = "btnFile";
             this.btnFile.Size = new System.Drawing.Size(71, 31);
@@ -50,6 +51,7 @@
             // 
             // tbPath
             // 
+            this.tbPath.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
             this.tbPath.Enabled = false;
             this.tbPath.Location = new System.Drawing.Point(145, 39);
             this.tbPath.Name = "tbPath";
@@ -60,7 +62,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(31, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 23);
@@ -70,7 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(31, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 23);
@@ -79,6 +81,7 @@
             // 
             // tbSearch
             // 
+            this.tbSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
             this.tbSearch.Enabled = false;
             this.tbSearch.Location = new System.Drawing.Point(145, 120);
             this.tbSearch.Name = "tbSearch";
@@ -88,8 +91,9 @@
             // 
             // btnOK
             // 
-            this.btnOK.BackColor = System.Drawing.Color.White;
+            this.btnOK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
             this.btnOK.Enabled = false;
+            this.btnOK.ForeColor = System.Drawing.Color.White;
             this.btnOK.Location = new System.Drawing.Point(496, 119);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(71, 32);
@@ -100,19 +104,21 @@
             // 
             // btnHome
             // 
+            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnHome.ForeColor = System.Drawing.Color.White;
             this.btnHome.Location = new System.Drawing.Point(496, 187);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(71, 38);
             this.btnHome.TabIndex = 6;
             this.btnHome.Text = "Home";
-            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // SearchFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(579, 237);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnOK);

@@ -38,6 +38,7 @@
             // 
             // tbPath
             // 
+            this.tbPath.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
             this.tbPath.Enabled = false;
             this.tbPath.Location = new System.Drawing.Point(195, 63);
             this.tbPath.Name = "tbPath";
@@ -47,7 +48,8 @@
             // 
             // btnSlecFolder
             // 
-            this.btnSlecFolder.BackColor = System.Drawing.Color.White;
+            this.btnSlecFolder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnSlecFolder.ForeColor = System.Drawing.Color.White;
             this.btnSlecFolder.Location = new System.Drawing.Point(588, 63);
             this.btnSlecFolder.Name = "btnSlecFolder";
             this.btnSlecFolder.Size = new System.Drawing.Size(37, 30);
@@ -59,7 +61,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(12, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(177, 23);
@@ -68,8 +70,9 @@
             // 
             // btnSort
             // 
-            this.btnSort.BackColor = System.Drawing.Color.White;
+            this.btnSort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
             this.btnSort.Enabled = false;
+            this.btnSort.ForeColor = System.Drawing.Color.White;
             this.btnSort.Location = new System.Drawing.Point(195, 167);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(76, 41);
@@ -80,8 +83,9 @@
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.White;
+            this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
             this.btnClear.Enabled = false;
+            this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(304, 167);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(76, 39);
@@ -92,7 +96,8 @@
             // 
             // btnHome
             // 
-            this.btnHome.BackColor = System.Drawing.Color.White;
+            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(163)))), ((int)(((byte)(17)))));
+            this.btnHome.ForeColor = System.Drawing.Color.White;
             this.btnHome.Location = new System.Drawing.Point(526, 169);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(76, 39);
@@ -105,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(637, 241);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnClear);

@@ -82,5 +82,12 @@ namespace OpreaterSystem
                 btnCount.Enabled = false;
             }
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Main m = new Main();
+            m.Show();
+        }
     }
 }
